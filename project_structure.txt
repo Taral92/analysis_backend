@@ -1,0 +1,44 @@
+fastapi-analytics-backend/
+├── app/
+│   ├── __init__.py
+│   ├── main.py                    # FastAPI app entry point
+│   ├── config.py                  # Configuration & env variables
+│   ├── database.py                # Database connection
+│   │
+│   ├── models/                    # SQLAlchemy models
+│   │   ├── __init__.py
+│   │   ├── order.py
+│   │   ├── booking.py
+│   │   ├── user.py
+│   │   ├── product.py
+│   │   ├── service.py
+│   │   └── address.py
+│   │
+│   ├── schemas/                   # Pydantic schemas (request/response)
+│   │   ├── __init__.py
+│   │   └── analytics.py
+│   │
+│   ├── routers/                   # API route handlers
+│   │   ├── __init__.py
+│   │   ├── finance.py
+│   │   ├── orders.py
+│   │   ├── customers.py
+│   │   ├── products.py
+│   │   ├── services.py
+│   │   ├── geography.py
+│   │   └── recommendations.py
+│   │
+│   ├── services/                  # Business logic
+│   │   ├── __init__.py
+│   │   ├── analytics_service.py
+│   │   └── ml_service.py
+│   │
+│   └── utils/                     # Helper functions
+│       ├── __init__.py
+│       ├── cache.py
+│       └── helpers.py
+│
+├── requirements.txt               # Python dependencies
+├── .env.example                   # Environment variables template
+├── README.md                      # Documentation
+└── run.py                         # Application runner

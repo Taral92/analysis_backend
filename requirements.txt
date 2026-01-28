@@ -1,0 +1,42 @@
+# FastAPI Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Data Analysis
+pandas==2.1.4
+numpy==1.26.3
+scipy==1.11.4
+
+# Machine Learning
+scikit-learn==1.4.0
+prophet==1.1.5
+
+# Caching
+redis==5.0.1
+hiredis==2.3.2
+
+# API & CORS
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Date & Time
+python-dateutil==2.8.2
+pytz==2023.3
+
+# HTTP Requests (if needed)
+httpx==0.26.0
+requests==2.31.0
+
+# Development
+pytest==7.4.4
+black==24.1.1
+flake8==7.0.0
